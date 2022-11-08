@@ -28,8 +28,8 @@ class TaskFiveViewController: UIViewController {
     }
     
     func play(){
-        showNames()
         changeCounter()
+        showNames()
     }
     
     func changeCounter(){
