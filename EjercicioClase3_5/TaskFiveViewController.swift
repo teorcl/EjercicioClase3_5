@@ -12,7 +12,7 @@ class TaskFiveViewController: UIViewController {
     @IBOutlet weak var nameLabel: UILabel!
     
     var counter = 0
-    let names = ["Luis","Gloria","David","Natalia"]
+    let names = ["Luis","Gloria","David","Natalia","Rocky"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +33,7 @@ class TaskFiveViewController: UIViewController {
     }
     
     func changeCounter(){
-        if(counter>=3){
+        if(counter >= names.count-1){
             counter = 0
         }else{
             counter += 1
